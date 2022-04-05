@@ -1,8 +1,8 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
-import EnterprisePage from './pages/EnterprisePage'
-import ConfigurationPage from './pages/ConfigurationPage'
+import EnterprisePage from './pages/EnterprisePage';
+import ConfigurationPage from './pages/ConfigurationPage';
 
 function App() {
   return (
@@ -15,6 +15,6 @@ function App() {
       <Route path={'*'} element={<EnterprisePage />}/>
     </Routes>
   );
-}
+};
 
 export default App;
